@@ -30,8 +30,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useEffect, useState, useTransition } from "react";
-import { AspectRatioKey, deepMergeObjects } from "@/lib/utils";
-import { debounce } from "lodash-es";
+import { AspectRatioKey, deepMergeObjects, debounce } from "@/lib/utils";
 import { updateCredits } from "@/lib/actions/user.actions";
 import MediaUploader from "./MediaUploader";
 import TransformedImage from "./TransformedImage";
